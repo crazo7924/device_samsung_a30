@@ -4,8 +4,8 @@
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core (2x1.8 GHz Cortex-A73   |
-|                         |   & 6x1.6 GHz Cortex-A53)         |
+| CPU                     | Octa-core (2x1.8 GHz Cortex-A73   & 6x1.6 GHz Cortex-A53) |
+|                         |                                   |
 | Chipset                 | Exynos 7904 (14 nm)               |
 | GPU                     | Mali-G71 MP2                      |
 | Memory                  | 3/4 GB                            |
