@@ -12,15 +12,9 @@ vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiosaplus_sec.so
 
 # Audio-Hardware
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.exynos7904.so
-vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.sec_primary.default.so
-vendor/lib/hw/audio.usb.default.so
-vendor/lib64/hw/audio.primary.default.so
-vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.sec_primary.default.so
-vendor/lib64/hw/audio.usb.default.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_did.conf
@@ -56,11 +50,9 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # Display-Hardware
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.exynos7904.so
 vendor/lib/hw/hwcomposer.exynos7904.so
 vendor/lib/hw/memtrack.exynos7904.so
-vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.exynos7904.so
 vendor/lib64/hw/hwcomposer.exynos7904.so
 vendor/lib64/hw/memtrack.exynos7904.so
@@ -68,10 +60,8 @@ vendor/lib64/hw/memtrack.exynos7904.so
 # Fingerprint
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
 vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc
-vendor/lib/hw/fingerprint.default.so
 vendor/lib/libgf_in_system_lib.so
 vendor/lib/libqfp_sensortest.so
-vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint@3.0.so
@@ -125,9 +115,7 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Power-Hardware
-vendor/lib/hw/power.default.so
 vendor/lib/hw/power.universal7904.so
-vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.universal7904.so
 
 # Radio-IMS
@@ -259,10 +247,6 @@ vendor/lib64/libsensorndkbridge.so
 # Thermal-Hardware
 vendor/lib/hw/thermal.universal7904.so
 vendor/lib64/hw/thermal.universal7904.so
-
-# Vibrator
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/vibrator.default.so
 
 # rootdir
 vendor/bin/moredump
