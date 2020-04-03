@@ -23,9 +23,7 @@ vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/audio.usb.default.so
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/bluetooth/bt_did.conf
-vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib/libbt-vendor.so
 vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
@@ -54,8 +52,6 @@ vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib/liboemcrypto.so
 
 # DRM-Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/lib/libwvhidl.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
@@ -72,10 +68,6 @@ vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.exynos7904.so
 vendor/lib64/hw/hwcomposer.exynos7904.so
 vendor/lib64/hw/memtrack.exynos7904.so
-
-# Dolby
-vendor/etc/dolby/dax-default.xml
-vendor/etc/media_codecs_dolby_audio.xml
 
 # Fingerprint
 vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service
@@ -109,28 +101,17 @@ vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
-# GPS-Hardware
-
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.exynos7904.so
 vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.exynos7904.so
-
-# Google
-vendor/overlay/GoogleExtServicesConfigOverlay.apk
-vendor/overlay/GooglePermissionControllerFrameworkOverlay.apk
-vendor/overlay/GooglePermissionControllerOverlay.apk
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_mali.so
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-service
-vendor/etc/init/android.hardware.keymaster@4.0-service.rc
 vendor/lib64/libkeymaster4.so
 vendor/lib64/libkeymaster4support.so
 vendor/lib64/libkeymaster_helper_vendor.so
@@ -139,8 +120,6 @@ vendor/lib64/libskeymaster4device.so
 # Keystore
 vendor/lib64/libkeystore-engine-wifi-hidl.so
 vendor/lib64/libkeystore-wifi-hidl.so
-
-# Listen
 
 # Media
 vendor/lib/libstagefright_soft_ac4dec.so
@@ -152,23 +131,13 @@ vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
-# Perf
-
-# Postprocessing
-
 # Power-Hardware
-vendor/bin/hw/android.hardware.power@1.0-service
-vendor/etc/init/android.hardware.power@1.0-service.rc
 vendor/lib/hw/android.hardware.power@1.0-impl.so
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.universal7904.so
 vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.universal7904.so
-
-# QMI
-
-# Radio
 
 # Radio-IMS
 -app/ImsSettings/ImsSettings.apk
@@ -224,11 +193,6 @@ vendor/lib/libSamsungPostProcessConvertor.so
 vendor/lib/libswldc_capture_core.camera.samsung.so
 vendor/lib/libxcv.camera.samsung.so
 vendor/lib/lib_SamsungRec_07001.so
-vendor/lib/lib_soundaliveresampler.so
-vendor/lib/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib/lib_SoundAlive_play_plus_ver400.so
-vendor/lib/lib_SoundAlive_SRC384_ver320.so
 vendor/lib/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib/vendor.samsung.camera.device@1.0-impl.so
 vendor/lib/vendor.samsung.camera.device@4.0-impl.so
@@ -254,9 +218,6 @@ vendor/lib64/libhal.wsm.samsung.so
 vendor/lib64/libOpenCv.camera.samsung.so
 vendor/lib64/libswldc_capture_core.camera.samsung.so
 vendor/lib64/libxcv.camera.samsung.so
-vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
-vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib64/lib_SoundAlive_play_plus_ver400.so
 vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/vendor.samsung.camera.device@1.0-impl.so
 vendor/lib64/vendor.samsung.camera.device@4.0-impl.so
@@ -295,8 +256,6 @@ vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.samsung.hardware.wifi@2.0.so
 vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
 vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
-vendor/overlay/NavigationBarModeSamsungGestural/NavigationBarModeSamsungGesturalOverlay.apk
-vendor/overlay/NavigationBarModeSamsungGesturalNoHint/NavigationBarModeSamsungGesturalNoHintOverlay.apk
 
 # Sensors
 vendor/lib/hw/sensors.universal7904.so
@@ -307,8 +266,6 @@ vendor/lib64/libsensorlistener.so
 vendor/lib64/libsensorndkbridge.so
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 
@@ -316,13 +273,9 @@ vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/hw/thermal.universal7904.so
 vendor/lib64/hw/thermal.universal7904.so
 
-# Time
-
 # Vibrator
 vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
-
-# WiFi
 
 # rootdir
 vendor/bin/moredump
@@ -332,11 +285,8 @@ vendor/bin/moredump.bin
 vendor/bin/argosd
 vendor/bin/cass
 vendor/bin/cbd
-vendor/bin/dumpsys
-vendor/bin/hw/gpsd
 vendor/bin/hw/macloader
 vendor/bin/hw/mfgloader
-vendor/bin/hw/rild
 vendor/bin/iof_vendor
 vendor/bin/main_abox
 vendor/bin/proxy_daemon
@@ -367,7 +317,6 @@ vendor/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml
 vendor/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml
 vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml
 vendor/etc/floating_feature.xml
-vendor/etc/fstab.exynos7904
 vendor/etc/gnss/ca.pem
 vendor/etc/gnss/gps.cfg
 vendor/etc/hearing_aid_audio_policy_configuration.xml
@@ -382,8 +331,6 @@ vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/pa_daemon_teegris.rc
 vendor/etc/init/secure_storage_daemon.rc
 vendor/etc/init/snap_utility.rc
-vendor/etc/init/teegris_v3.rc
-vendor/etc/init/vk_teegris.rc
 vendor/etc/init/wifi.rc
 vendor/etc/init/wifi_slsi.rc
 vendor/etc/init/wsm-service.rc
@@ -397,7 +344,6 @@ vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_delta_usacdma.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
-vendor/etc/public.libraries.txt.backup
 vendor/etc/saiv/fd/fast_face_detect_model_full_angle_16_CHAR.dat
 vendor/etc/saiv/gae/MeanFea.bin
 vendor/etc/saiv/gae/ParaFea.bin
@@ -421,7 +367,6 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/etc/yas_set.cfg
-vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/android.hardware.audio.common@2.0-util.so
 vendor/lib/android.hardware.audio.common@4.0-util.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
@@ -432,7 +377,6 @@ vendor/lib/libapex_utils.so
 vendor/lib/libarac.so
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
-vendor/lib/libcsc.so
 vendor/lib/libdeccfg.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libexynoscamera3.so

@@ -1,6 +1,6 @@
 [
     {
-        "repository": "local/kernel_samsung_a30",
+        "repository": "crazo7924/kernel_samsung_a30",
         "target_path": "kernel/samsung/a30"
     },
     {
