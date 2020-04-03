@@ -24,10 +24,8 @@ vendor/lib64/hw/audio.usb.default.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_did.conf
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib/libbt-vendor.so
 vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib64/libbt-vendor.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
@@ -58,12 +56,10 @@ vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # Display-Hardware
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.exynos7904.so
 vendor/lib/hw/hwcomposer.exynos7904.so
 vendor/lib/hw/memtrack.exynos7904.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gralloc.exynos7904.so
 vendor/lib64/hw/hwcomposer.exynos7904.so
@@ -97,14 +93,11 @@ vendor/firmware/Tfa9896.cnt
 # GPS
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Gatekeeper
-vendor/lib/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.exynos7904.so
-vendor/lib64/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.exynos7904.so
 
 # Graphics
@@ -132,10 +125,8 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Power-Hardware
-vendor/lib/hw/android.hardware.power@1.0-impl.so
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.universal7904.so
-vendor/lib64/hw/android.hardware.power@1.0-impl.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.universal7904.so
 
@@ -265,10 +256,6 @@ vendor/lib64/hw/sensors.universal7904.so
 vendor/lib64/libsensorlistener.so
 vendor/lib64/libsensorndkbridge.so
 
-# Thermal
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
-
 # Thermal-Hardware
 vendor/lib/hw/thermal.universal7904.so
 vendor/lib64/hw/thermal.universal7904.so
@@ -367,10 +354,6 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/etc/yas_set.cfg
-vendor/lib/android.hardware.audio.common@2.0-util.so
-vendor/lib/android.hardware.audio.common@4.0-util.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/android.hardware.camera.provider@2.5-legacy.so
 vendor/lib/libacryl.so
 vendor/lib/libapex_cmn.so
 vendor/lib/libapex_utils.so
@@ -504,10 +487,6 @@ vendor/lib/soundfx/libswdap.so
 vendor/lib/vndk/libstagefright_omx_utils.so
 vendor/lib/vndk/libstagefright_xmlparser.so
 vendor/lib/vndk/libtinyalsa.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common@2.0-util.so
-vendor/lib64/android.hardware.audio.common@4.0-util.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/libacryl.so
 vendor/lib64/libarac.so
 vendor/lib64/libbauthserver.so
