@@ -1,16 +1,3 @@
-
-# Audio
-vendor/lib/libaudio-ril.so
-vendor/lib/libaudio_soundtrigger.so
-vendor/lib/libtinycompress.so
-vendor/lib/soundfx/libaudioeffectoffload.so
-vendor/lib/soundfx/libaudiopreprocessing.so
-vendor/lib/soundfx/libaudiosaplus_sec.so
-vendor/lib/vndk/libaudioroute.so
-vendor/lib64/soundfx/libaudioeffectoffload.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libaudiosaplus_sec.so
-
 # Audio-Hardware
 vendor/lib/hw/audio.primary.exynos7904.so
 vendor/lib/hw/audio.sec_primary.default.so
@@ -29,7 +16,6 @@ lib64/libaptX_encoder.so
 # Camera
 vendor/bin/remosaic_daemon
 vendor/lib/hw/camera.exynos7904.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libremosaiclib_s5k3p8sp_gpu.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libremosaic_tuning.so
@@ -42,12 +28,6 @@ vendor/lib64/libSonyIMX471RmscLibrary.so
 
 # DRM
 vendor/lib/liboemcrypto.so
-
-# DRM-Widevine
-vendor/lib/libwvhidl.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # Display-Hardware
 vendor/lib/hw/gralloc.exynos7904.so
@@ -94,25 +74,31 @@ vendor/lib64/hw/gatekeeper.exynos7904.so
 vendor/lib/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_mali.so
 
-# Keymaster
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster4support.so
-vendor/lib64/libkeymaster_helper_vendor.so
-vendor/lib64/libskeymaster4device.so
-
-# Keystore
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-
-# Media
-vendor/lib/libstagefright_soft_ac4dec.so
-vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefright_soft_mpeg2dec.so
-vendor/lib/vndk/libstagefright_foundation.so
-
-# Media-Hardware
-vendor/lib/libstagefrighthw.so
-vendor/lib64/libstagefrighthw.so
+# Permissions
+vendor/etc/permissions/android.hardware.bluetooth.xml
+vendor/etc/permissions/android.hardware.bluetooth_le.xml
+vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml
+vendor/etc/permissions/android.hardware.camera.front.xml
+vendor/etc/permissions/android.hardware.camera.xml
+vendor/etc/permissions/android.hardware.location.gps.xml
+vendor/etc/permissions/android.hardware.opengles.aep.xml
+vendor/etc/permissions/android.hardware.sensor.accelerometer.xml
+vendor/etc/permissions/android.hardware.sensor.compass.xml
+vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
+vendor/etc/permissions/android.hardware.sensor.light.xml
+vendor/etc/permissions/android.hardware.telephony.gsm.xml
+vendor/etc/permissions/android.hardware.telephony.ims.xml
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+vendor/etc/permissions/android.hardware.usb.accessory.xml
+vendor/etc/permissions/android.hardware.usb.host.xml
+vendor/etc/permissions/android.hardware.vulkan.compute.xml
+vendor/etc/permissions/android.hardware.vulkan.level.xml
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.hardware.wifi.direct.xml
+vendor/etc/permissions/android.hardware.wifi.xml
+vendor/etc/permissions/android.software.ipsec_tunnels.xml
+vendor/etc/permissions/android.software.midi.xml
+vendor/etc/permissions/handheld_core_hardware.xml
 
 # Power-Hardware
 vendor/lib/hw/power.universal7904.so
@@ -238,12 +224,7 @@ vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 
 # Sensors
 vendor/lib/hw/sensors.universal7904.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib64/hw/sensors.universal7904.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libsensorndkbridge.so
-
 # Thermal-Hardware
 vendor/lib/hw/thermal.universal7904.so
 vendor/lib64/hw/thermal.universal7904.so
@@ -338,13 +319,6 @@ vendor/etc/tms_audio_policy_configuration.xml
 vendor/etc/wlan_common_rc
 vendor/etc/wlan_vendor_rc
 vendor/etc/yas_set.cfg
-vendor/lib/libacryl.so
-vendor/lib/libapex_cmn.so
-vendor/lib/libapex_utils.so
-vendor/lib/libarac.so
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib/libdeccfg.so
 vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib/libexynoscamera3.so
 vendor/lib/libexynosdisplay.so
@@ -360,11 +334,9 @@ vendor/lib/libFrucSSMLib.so
 vendor/lib/libgiantmscl.so
 vendor/lib/libGrallocWrapper.so
 vendor/lib/libHMT.so
-vendor/lib/libhwjpeg.so
 vendor/lib/libion_exynos.so
 vendor/lib/libMcClient.so
 vendor/lib/libmdf.so
-vendor/lib/libopus.so
 vendor/lib/libpa.so
 vendor/lib/libpadm.so
 vendor/lib/libpredeflicker_native.so
@@ -408,33 +380,6 @@ vendor/lib/libsomxvp8d.so
 vendor/lib/libsomxwmad.so
 vendor/lib/libsomxwmv7d.so
 vendor/lib/libsomxwmv8d.so
-vendor/lib/libstagefright_amrnb_common.so
-vendor/lib/libstagefright_bufferqueue_helper_vendor.so
-vendor/lib/libstagefright_enc_common.so
-vendor/lib/libstagefright_flacdec.so
-vendor/lib/libstagefright_omx_vendor.so
-vendor/lib/libstagefright_softomx.so
-vendor/lib/libstagefright_softomx_plugin.so
-vendor/lib/libstagefright_soft_aacdec.so
-vendor/lib/libstagefright_soft_aacenc.so
-vendor/lib/libstagefright_soft_amrdec.so
-vendor/lib/libstagefright_soft_amrnbenc.so
-vendor/lib/libstagefright_soft_amrwbenc.so
-vendor/lib/libstagefright_soft_avcdec.so
-vendor/lib/libstagefright_soft_avcenc.so
-vendor/lib/libstagefright_soft_flacdec.so
-vendor/lib/libstagefright_soft_flacenc.so
-vendor/lib/libstagefright_soft_g711dec.so
-vendor/lib/libstagefright_soft_gsmdec.so
-vendor/lib/libstagefright_soft_hevcdec.so
-vendor/lib/libstagefright_soft_mp3dec.so
-vendor/lib/libstagefright_soft_mpeg4dec.so
-vendor/lib/libstagefright_soft_mpeg4enc.so
-vendor/lib/libstagefright_soft_opusdec.so
-vendor/lib/libstagefright_soft_rawdec.so
-vendor/lib/libstagefright_soft_vorbisdec.so
-vendor/lib/libstagefright_soft_vpxdec.so
-vendor/lib/libstagefright_soft_vpxenc.so
 vendor/lib/libsxqk.so
 vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib/libteecl.so
@@ -443,15 +388,9 @@ vendor/lib/libucm_tlc_direct_comm.so
 vendor/lib/libucm_tlc_tz_esecomm.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
-vendor/lib/libuuid.so
-vendor/lib/libvideobeauty_interface.so
 vendor/lib/libvkmanager_vendor.so
 vendor/lib/libvndsecril-client.so
-vendor/lib/libvorbisidec.so
-vendor/lib/libvpx.so
-vendor/lib/libwifi-hal.so
 vendor/lib/libwrappergps.so
-vendor/lib/libyasalgo.so
 vendor/lib/lib_SoundBooster_ver1000.so
 vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
 vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
@@ -463,21 +402,6 @@ vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
 vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
 vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so
 vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
-vendor/lib/soundfx/libgearvr.so
-vendor/lib/soundfx/libmysound.so
-vendor/lib/soundfx/libmyspace.so
-vendor/lib/soundfx/libplaybackrecorder.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/vndk/libstagefright_omx_utils.so
-vendor/lib/vndk/libstagefright_xmlparser.so
-vendor/lib/vndk/libtinyalsa.so
-vendor/lib64/libacryl.so
-vendor/lib64/libarac.so
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
-vendor/lib64/libcsc.so
-vendor/lib64/libdk_vnd_service_core.so
-vendor/lib64/libdsms.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libexynoscamera3.so
 vendor/lib64/libexynosdisplay.so
@@ -492,7 +416,6 @@ vendor/lib64/libfloatingfeature.so
 vendor/lib64/libgiantmscl.so
 vendor/lib64/libGrallocWrapper.so
 vendor/lib64/libHMT.so
-vendor/lib64/libhwjpeg.so
 vendor/lib64/libion_exynos.so
 vendor/lib64/libiwt.so
 vendor/lib64/libMcClient.so
@@ -539,7 +462,6 @@ vendor/lib64/libsomxvp8d.so
 vendor/lib64/libsomxwmad.so
 vendor/lib64/libsomxwmv7d.so
 vendor/lib64/libsomxwmv8d.so
-vendor/lib64/libsxqk.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib64/libteecl.so
 vendor/lib64/libtlc_comm_atn.so
@@ -552,14 +474,8 @@ vendor/lib64/libucm_tlc_tz_esecomm.so
 vendor/lib64/libucsengine.so
 vendor/lib64/libuniapi.so
 vendor/lib64/libuniplugin.so
-vendor/lib64/libuuid.so
-vendor/lib64/libvideobeauty_interface.so
-vendor/lib64/libvkmanager_vendor.so
-vendor/lib64/libvkservice.so
-vendor/lib64/libvndsecril-client.so
 vendor/lib64/libwrappergps.so
 vendor/lib64/libwsmd_functions.so
-vendor/lib64/libyasalgo.so
 vendor/lib64/lib_SoundBooster_ver1000.so
 vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
 vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
@@ -571,12 +487,6 @@ vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so
 vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
 vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
 vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
-vendor/lib64/soundfx/libgearvr.so
-vendor/lib64/soundfx/libmysound.so
-vendor/lib64/soundfx/libmyspace.so
-vendor/lib64/soundfx/libplaybackrecorder.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/vndk/libcrypto.so
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn.prototxt
 vendor/saiv/image_understanding/db/aic_classifier/aic_classifier_cnn_light.caffemodel
 vendor/saiv/image_understanding/db/aic_detector/aic_detector_cnn.prototxt
