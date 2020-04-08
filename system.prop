@@ -1,5 +1,7 @@
 # system.prop for universal7885
 #
+ro.product.device=a30
+ro.product.model=a30
 ro.arch=exynos7904
 ro.kernel.qemu=0
 ro.kernel.qemu.gles=1
