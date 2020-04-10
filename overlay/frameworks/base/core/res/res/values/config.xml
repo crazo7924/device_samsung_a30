@@ -391,7 +391,6 @@
         <item>675</item>
         <item>700</item>
     </array>
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>6</item>
         <item>6</item>
@@ -1040,7 +1039,6 @@
         <item>675</item>
         <item>700</item>
     </array>
-    <array name="config_screenBrightnessRangeForClearView" />
     <integer-array name="config_screenDarkeningThresholds">
         <item>200</item>
     </integer-array>
