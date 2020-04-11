@@ -6,14 +6,12 @@ VENDOR_SECURITY_PATCH := 2020-02-01
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/android.hardware.cas@1.1-service.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vendor.samsung.hardware.base@1.0-service.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
 # Platform
 BOARD_VENDOR := samsung
-TARGET_BOARD_PLATFORM := exynos5
+TARGET_BOARD_PLATFORM := exynos7904
 TARGET_SOC := exynos7904
 TARGET_BOOTLOADER_BOARD_NAME := universal7885
 TARGET_NO_BOOTLOADER := true
@@ -38,6 +36,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/a30
 TARGET_KERNEL_CONFIG := exynos7885-a30_defconfig
+
+TARGET_USES_64_BIT_BINDER := true
 
 # Image
 BOARD_KERNEL_IMAGE_NAME := Image
