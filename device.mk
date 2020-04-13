@@ -73,6 +73,10 @@ PRODUCT_PACKAGES += \
     fstab.exynos7904 \
     ueventd.samsungexynos7904.rc \
 
+# Keymaster HAL
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0-service
+
 # Seccomp
 # PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/configs/seccomp/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy \

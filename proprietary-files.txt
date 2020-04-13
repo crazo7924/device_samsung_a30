@@ -109,7 +109,6 @@ vendor/lib64/hw/power.universal7904.so
 
 # Samsung
 vendor/bin/hw/android.hardware.health@2.0-service.samsung
-vendor/bin/hw/vendor.samsung.hardware.base@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.light@3.0-service
 vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
@@ -130,7 +129,6 @@ vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
 vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service
 vendor/etc/init/android.hardware.health@2.0-service.samsung.rc
 vendor/etc/init/init.samsung.bsp.rc
-vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc
@@ -146,7 +144,6 @@ vendor/etc/init/vendor.samsung.hardware.vibrator@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc
 vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so
 vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so
@@ -189,7 +186,6 @@ vendor/lib64/vendor.samsung.camera.device@4.0-impl.so
 vendor/lib64/vendor.samsung.frameworks.security.dsms@1.0.so
 vendor/lib64/vendor.samsung.frameworks.security.ucm.crypto@1.0.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
-vendor/lib64/vendor.samsung.hardware.base@1.0.so
 vendor/lib64/vendor.samsung.hardware.camera.device@1.0.so
 vendor/lib64/vendor.samsung.hardware.camera.device@4.0.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@3.0.so
@@ -258,16 +254,6 @@ vendor/bin/vaultkeeperd
 vendor/bin/wlbtd
 vendor/bin/wvkprov
 vendor/etc/abox_debug.xml
-vendor/etc/carrier/ACG/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/BST/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/CCT/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/LRA/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/SPR/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/TFN/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/USC/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/VMU/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/VZW/permissions/android.hardware.telephony.cdma.xml
-vendor/etc/carrier/XAS/permissions/android.hardware.telephony.cdma.xml
 vendor/etc/floating_feature.xml
 vendor/etc/gnss/ca.pem
 vendor/etc/gnss/gps.cfg
